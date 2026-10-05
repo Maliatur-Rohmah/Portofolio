@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aster | Personal Portfolio</title>
+    <meta
+      name="description"
+      content="Portofolio pribadi dengan tampilan aesthetic, responsive, dan modern."/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwUEQpDN9d2H65qQx5NfM8G+5E5hA2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a href="#home" class="brand" aria-label="Halaman utama">
+            <span class="brand-mark">A</span>
+            <span>Aster</span>
+          </a>
+          <nav class="main-nav" aria-label="Navigasi utama">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Ganti tema" aria-pressed="false">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </header>
+      <main>
+        <section class="hero" id="home">
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <p class="eyebrow">Hello, I'm Aster</p>
+              <h1>Creative Front-End Developer.</h1>
+              <p class="lead">
+                I build fast, elegant, and user-friendly digital experiences that feel warm,
+                memorable, and modern.
+              </p>
+              <div class="cta-group">
+                <a class="btn btn-primary" href="#projects">View Projects</a>
+                <a class="btn btn-secondary" href="#contact">Let's Talk</a>
+              </div>
+              <ul class="mini-stats" aria-label="Statistik utama">
+                <li><strong>3+</strong><span>Years Exp.</span></li>
+                <li><strong>18</strong><span>Projects</span></li>
+                <li><strong>100%</strong><span>Passion</span></li>
+              </ul>
+            </div>
+            <div class="hero-visual reveal">
+              <div class="portrait-card">
+                <div class="image-glow"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                  alt="Potret seorang perempuan yang terlihat profesional"/>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">About Me</p>
+              <h2>I design experiences with a soft touch.</h2>
+            </div>
+            <div class="about-grid">
+              <div class="about-card reveal">
+                <p>
+                  I am a front-end developer who loves blending clean code with thoughtful design.
+                  My work focuses on building interfaces that are not only beautiful but also easy to
+                  use and accessible for everyone.
+                </p>
+                <p>
+                  I enjoy turning ideas into elegant digital experiences, from landing pages to
+                  portfolios, product pages, and interactive web interfaces.
+                </p>
+              </div>
+              <div class="about-highlights reveal">
+                <article>
+                  <i class="fa-solid fa-pen-nib"></i>
+                  <h3>UI Design</h3>
+                  <p>Crafting aesthetic layouts with a clear visual hierarchy.</p>
+                </article>
+                <article>
+                  <i class="fa-solid fa-code"></i>
+                  <h3>Development</h3>
+                  <p>Building responsive and performant interfaces with modern web standards.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="skills section" id="skills">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Skills</p>
+              <h2>Tools I use to bring ideas to life.</h2>
+            </div>
+            <div class="skills-grid reveal">
+              <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Semantic structure and accessible content.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Modern styling, responsive design, and visual polish.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Interactive behavior and dynamic user experiences.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-brands fa-react"></i>
+                <h3>React</h3>
+                <p>Reusable components and scalable UI architecture.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>Git</h3>
+                <p>Version control and smooth collaborative workflows.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Design</h3>
+                <p>Creating visual systems with balanced colors and rhythm.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="projects section" id="projects">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Projects</p>
+              <h2>Selected work and experiments.</h2>
+            </div>
+            <div class="project-grid">
+              <article class="project-card reveal">
+                <img
+                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                  alt="Project landing page workspace"/>
+                <div class="project-body">
+                  <span class="project-tag">Web Design</span>
+                  <h3>Studio Landing Page</h3>
+                  <p>Elegant responsive landing page focused on branding and conversion.</p>
+                  <a href="#contact">View details</a>
+                </div>
+              </article>
+              <article class="project-card reveal">
+                <img
+                  src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=900&q=80"
+                  alt="Project dashboard layout"/>
+                <div class="project-body">
+                  <span class="project-tag">Dashboard</span>
+                  <h3>Analytics Dashboard</h3>
+                  <p>Data-driven interface with a clean, functional, and intuitive UX.</p>
+                  <a href="#contact">View details</a>
+                </div>
+              </article>
+              <article class="project-card reveal">
+                <img
+                  src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80"
+                  alt="Project portfolio website mockup"/>
+                <div class="project-body">
+                  <span class="project-tag">Portfolio</span>
+                  <h3>Creative Portfolio</h3>
+                  <p>Personal portfolio with storytelling layout and soft pastel aesthetics.</p>
+                  <a href="#contact">View details</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="contact section" id="contact">
+          <div class="container contact-grid">
+            <div class="contact-copy reveal">
+              <p class="eyebrow">Contact</p>
+              <h2>Let’s build something beautiful together.</h2>
+              <p>
+                Whether you need a portfolio, landing page, or custom web interface, let's talk about
+                your next idea.
+              </p>
+              <div class="contact-list">
+                <a href="mailto:hello@aster.dev"><i class="fa-solid fa-envelope"></i> hello@aster.dev</a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.instagram.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
+              </div>
+            </div>
+            <form class="contact-form reveal" id="contactForm">
+              <label>Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>Email
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+              <label>Message
+                <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <p>© <span id="year"></span> Aster. All rights reserved.</p>
+          <a href="#home">Back to top</a>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
